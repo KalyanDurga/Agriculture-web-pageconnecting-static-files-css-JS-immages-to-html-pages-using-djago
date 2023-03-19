@@ -1,0 +1,61 @@
+#h1 {
+    color: green;
+}
+#a {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+    padding: 10px;
+  }
+  nav h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  nav h1 {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  
+  
+  #a ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #a li {
+    margin: 0 10px;
+  }
+  
+  #a a {
+    color: #090000;
+    text-decoration: none;
+    font-size: 30px;
+    font:bold;
+    background-color: aqua;
+    padding: 10px;
+  }
+  body {
+    background-image: url('../images/abt.jfif');
+    background-size: cover;
+    background-position: fixed;
+  }
+  
+  input{
+    padding: 15px 100px;
+    font-size: x-large;
+    border-radius: 15px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: wheat;
+    margin:10px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 5px solid black;
+    color: black;
+  }
+  input:hover {
+  border-color: rgb(250, 192, 84); 
+    box-shadow: 0 0 50px rgb(250, 192, 84); 
+  }

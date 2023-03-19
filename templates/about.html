@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <title>agriculture</title>
+</head>
+<body>
+    <center>
+        <h1 id="h1">AGRICULTURE THE BACK BONE OF INDIA</h1>
+    </center>
+    
+    <nav id=a>
+        <h1>INDIAN Agriculture proud of nation</h1>
+            <ul>
+              <li><a href="{% url 'agriculture' %}">Home</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li><a href="{% url 'details' %}">Details</a></li>
+              <li><a href="{% url 'registation' %}">Registration</a></li>
+            </ul>
+          
+    </nav>
+    <center><h1>AGRICULTURE</h1></center>
+    <p id="p">
+        The history of agriculture in India dates back to the neolothic. India ranks second worldwide in farm outputs. As per Indian economic survey 2018, agriculture
+         employed more than 50% of the Indian work force and contributed 17–18% to country's GDP.In 2016, agriculture and allied sectors like animal husbandry, forestry 
+         and fisheries accounted for 17.5% of the GDP (gross domestic product) with about 41.49% of the workforce in 2020. India ranks first in the world with highest net
+          cropped area followed by US and China. The economic contribution of agriculture to India's GDP is steadily declining with the country's broad-based economic growth.
+           Still, agriculture is demographically the broadest economic sector and plays a significant role in the overall socio-economic fabric of India. The total agriculture
+            commodities export was US$3.50 billion in March - June 2020. India exported $38 billion worth of agricultural products in 2013, making it the seventh largest
+             agricultural exporter worldwide and the sixth largest net exporter. Most of its agriculture exports serve developing and least developed nations. Indian 
+             agricultural/horticultural and processed foods are exported to more than 120 countries, primarily to the Japan, Southeast Asia, SAARC countries, the European 
+             Union and the United States.
+    </p>
+    <p style="font-size: xx-large; font-style:bold">Two-thirds of India’s population</p>
+    <p id="p">is engaged in agricultural activities. It is a primary activity, which produces food grains and raw materials for industries. India is geographically a
+         vast country so it has various food and non-food crops which are cultivated in three main cropping seasons which are rabi, kharif and zaid.</p>
+    <center>
+        <h3>Major crops:--Rice, Wheat, Millets, Maize and Pulses.</h3>
+    <h3>Cash crops- Sugarcane, Oilseeds, Horticulture crops, Tea, Coffee, Rubber, Cotton and Jute.</h3>
+    </center>
+
+    <center>
+        <table border="">
+            <thead>
+                <tr style="font-size: x-large;background-color:yellowgreen ">
+                    <th>slno</th>
+                    <th>Cropping season</th>
+                    <th>Time Period</th>
+                    <th>Crops</th>
+                    <th>States</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tab">
+                    <td>1</td>
+                    <td>rabi</td>
+                    <td>Sown: October-December Harvested: April-June</td>
+                    <td>Wheat, barley, peas, gram, mustard etc.</td>
+                    <td>Punjab, Haryana, Himachal Pradesh, Jammu and Kashmir, Uttarakhand and Uttar Pradesh</td>
+                </tr>
+                <tr id="tab">
+                    <td>2</td>
+                    <td>Kharif</td>
+                    <td>Sown: June-July Harvested: September-October</td>
+                    <td>Rice, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut, soybean etc.</td>
+                    <td>Assam, West Bengal, coastal regions of Odisha, Andhra Pradesh, Telangana, Tamil Nadu, Kerala and Maharashtra</td>
+                </tr>
+                <tr id="tab">
+                    <td>3</td>
+                    <td>Zaid</td>
+                    <td>Sown and harvested: March-July (between Rabi and Kharif)</td>
+                    <td>Seasonal fruits, vegetables, fodder crops etc.</td>
+                    <td>Most of the northern and northwestern states</td>
+                </tr>
+                
+                    
+            </tbody>
+        </table>
+     </center>
+    <center><h2>agriculture outputs</h2>
+    
+        <img src="{% static 'images/stat.png' %}" alt="image">
+    </center>
+
+    <center>
+        <h2>agricultural Statistics</h2>
+        <img src="{% static 'images/stat1.png' %}" alt="">
+    </center>
+
+
+
+
+</body>
+</html>
